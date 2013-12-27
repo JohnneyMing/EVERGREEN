@@ -1,3 +1,6 @@
+
+//Author : Mingwei zhong
+
 package com.project;
 
 import android.app.Activity;

@@ -1,3 +1,5 @@
+//Author : Mingwei zhong
+
 package com.project;
 
 import android.app.Activity;
@@ -37,7 +39,6 @@ public class ClipBoardActivity extends Activity
 
         mClipboard = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
 
-        //See res/any/layout/resources.xml for this view layout definition.
         setContentView(R.layout.main);
 
         mSpinner = (Spinner) findViewById(R.id.clip_type);
